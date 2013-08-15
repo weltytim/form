@@ -1,0 +1,17 @@
+
+In this magicthumbs folder in the root of the website is all the items you need to get this to operate.  Just follow these instructions:
+
+Resize and reformat your photo(s) saving a large and small (thumbnail) version of your image in a subfolder within "images" you create to keep all files together.
+
+Copy graphics, magicmagnifyplus and magicthumb folders to root of site.
+
+Copy magicthumb-packed.js and magicthumb.css files into the root of the site.
+
+In webpage, copy the following into the <head> section:
+
+<link rel="stylesheet" href="magicthumb.css" type="text/css" media="screen, projection"/>
+<script type="text/javascript" src="magicthumb-packed.js"></script>
+
+Within the <body> where you want image to be enlarged - paste the below for each image to be enlarged and modify the path to your large and small images:
+
+<a href="images/LARGE-IMAGE.jpg" class="MagicThumb" rel="size: large-image-width-px"><img src="images/SMALL-IMAGE.jpg" width="115" height="91" border="0"/></a>

@@ -1,0 +1,20 @@
+<head>
+<link rel="stylesheet" href="magicthumb.css" type="text/css" media="screen, projection"/>
+<script type="text/javascript" src="magicthumb-packed.js"></script>
+
+</head>
+
+
+<body>
+
+Thumbnail image to larger version pop out:
+
+<a href="images/large-pop-out-photo.jpg" class="MagicThumb" rel="size: 450px"><img src="images/thumbnail-photo.jpg" width="115" height="91" border="0"/></a>
+
+
+Text link to image pop-out:
+
+<a href="images/large-pop-out-photo.jpg" class="MagicThumb" rel="size: 450px">Click Here TO View Floor Plan</a>
+
+
+</body>
